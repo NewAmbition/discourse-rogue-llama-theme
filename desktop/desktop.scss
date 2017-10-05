@@ -1,0 +1,182 @@
+$color_1: #8e24aa;
+$color_2: #4db6ac;
+$color_3: #9575cd;
+$color_4: #ffb74d;
+
+body {
+	background: url(https://orig00.deviantart.net/0289/f/2013/130/e/1/tiling_alpaca_background_by_x_burner-d64sshr.png) repeat;
+}
+.contents {
+	>.title {
+		background-image: url(https://i.imgur.com/7aOezMW.png);
+		background-repeat: no-repeat;
+		background-size: 150px 80px;
+		height: 90px;
+		overflow: hidden;
+	}
+}
+.d-header {
+	#site-logo {
+		width: 120px;
+		height: 70px;
+		max-height: 90px;
+		visibility: hidden;
+	}
+	background: rgb(255, 205, 210);
+}
+.user-detail {
+	.title {
+		background-image: url(http://jessicamaccormack.com/wp-content/uploads/2014/05/crossed-horns.gif);
+		background-size: 40px 30px;
+		height: 30px;
+		width: 40px;
+	}
+}
+.topic-avatar {
+	background-repeat: no-repeat;
+	background-size: 40px 35px;
+	height: 35px;
+	width: 50px;
+}
+.current-user {
+	background-repeat: no-repeat;
+	background-size: 40px 35px;
+	height: 35px;
+	width: 50px;
+}
+.btn {
+	background: #e1f5fe;
+	color: $color_1;
+}
+#topic-title {
+	background: rgb(255, 205, 210);
+}
+.active {
+	background: rgb(255, 205, 210);
+}
+.info {
+	>.title {
+		background: none;
+		height: initial;
+		text-indent: 0;
+		width: initial;
+	}
+}
+.main-content {
+	background: rgb(178, 235, 242);
+}
+.user-main {
+	background: rgb(178, 235, 242);
+}
+.raw-link {
+	background: none;
+}
+.topic-statuses {
+	background: none;
+}
+.user-title {
+	color: $color_2;
+}
+.timeline-ago {
+	color: $color_2;
+}
+.number {
+	color: $color_3;
+}
+th {
+	color: $color_3;
+}
+a {
+	color: $color_3;
+}
+.notification-options {
+	>p {
+		color: $color_3;
+	}
+}
+h3 {
+	color: $color_1;
+}
+.fa {
+	color: $color_1;
+}
+.reply {
+	color: $color_1;
+}
+.label {
+	color: $color_1;
+}
+.instructions {
+	color: $color_1;
+}
+.topic-timeline {
+	background: #d1c4e9;
+	padding: 10px;
+	right: 280px;
+	top: 82px;
+	width: auto;
+}
+.main-content.topic.has-sidebars {
+	#topic-title {
+		.container {
+			.title-wrapper {
+				.badge-wrapper {
+					display: block;
+				}
+			}
+		}
+	}
+}
+.main-content.has-sidebars {
+	width: calc(100% - 245px);
+}
+.sidebar {
+	background: #d1c4e9;
+}
+aside.sidebar {
+	width: 225px;
+}
+.dl-custom-content {
+	width: 230px;
+}
+li {
+	b {
+		text-decoration: underline;
+	}
+}
+#most-recent-posts-widget {
+	li {
+		border-bottom: 1px solid #0e1717;
+		padding: 1px 0 3px 0;
+		&:hover {
+			background: #e1f5fe;
+		}
+	}
+	ul {
+		list-style: none;
+		margin: 0;
+		a {
+			display: block;
+			overflow: hidden;
+			text-decoration: none;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+		li {
+			&:hover {
+				a {
+					color: $color_4;
+					display: initial;
+					overflow: initial;
+					text-overflow: initial;
+					white-space: normal;
+				}
+			}
+		}
+	}
+}
+@media only screen and (min-width: 1025px) {
+	div.sidebar {
+		position: fixed;
+	}
+}
