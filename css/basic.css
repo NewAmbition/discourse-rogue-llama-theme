@@ -1,0 +1,154 @@
+body {
+    background: url(https://orig00.deviantart.net/0289/f/2013/130/e/1/tiling_alpaca_background_by_x_burner-d64sshr.png) repeat;
+}
+
+.contents>.title {
+    background-image: url(https://i.imgur.com/7aOezMW.png);
+    background-repeat: no-repeat;
+    background-size: 150px 80px;
+    height: 90px;
+    width: 140px;
+    overflow: hidden;
+    //text-indent: 100%;
+    //white-space: nowrap;
+}
+
+.d-header #site-logo{
+    width: 120px;
+    height: 70px;
+    max-height: 90px;
+    visibility: hidden;
+}
+
+.user-detail .title {
+    background-image: url(http://jessicamaccormack.com/wp-content/uploads/2014/05/crossed-horns.gif);
+    background-size: 40px 30px;
+    height: 30px;
+    width: 40px;
+}
+
+.topic-avatar {
+    background-repeat: no-repeat;
+    background-size: 40px 35px;
+    height: 35px;
+    width: 50px;
+}
+
+.current-user {
+    background-repeat: no-repeat;
+    background-size: 40px 35px;
+    height: 35px;
+    width: 50px;
+}
+
+.btn {
+    background: #e1f5fe;
+    color: #8e24aa;
+}
+
+.d-header, #topic-title, .active {
+    background: rgb(255, 205, 210);
+}
+
+.info > .title {
+    background: none;
+    height: initial;
+    text-indent: 0;
+    width: initial;
+}
+
+.main-content, .user-main {
+    background: rgb(178, 235, 242);
+}
+
+.logo-big, .logo-small, .avatar {
+}
+
+.raw-link, .topic-statuses {
+    background: none;
+}
+
+.user-title, .timeline-ago {
+    color: #4db6ac;
+}
+
+.number, th, a {
+    color: #9575cd;
+}
+
+.notification-options > p {
+    color: #9575cd;
+}
+
+h3, .fa, .reply, .label, .instructions {
+    color: #8e24aa;
+}
+
+.topic-timeline {
+    background: #d1c4e9;
+    padding: 10px;
+    right: 280px;
+    top: 82px;
+    width: auto;
+}
+
+.main-content.topic.has-sidebars #topic-title .container .title-wrapper .badge-wrapper {
+    display: block;
+}
+
+.main-content.has-sidebars {
+    width: calc(100% - 245px);
+}
+
+.sidebar {
+    background: #d1c4e9;
+}
+
+aside.sidebar {
+    width: 225px;
+}
+
+.dl-custom-content {
+    width: 230px;
+}
+
+li b {
+    text-decoration: underline;
+}
+
+#most-recent-posts-widget li {
+    border-bottom: 1px solid #0e1717;
+    padding: 1px 0 3px 0;
+}
+
+#most-recent-posts-widget li:hover {
+    background: #e1f5fe;
+}
+
+#most-recent-posts-widget ul {
+    list-style: none;
+    margin: 0;
+}
+
+#most-recent-posts-widget ul a {
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#most-recent-posts-widget ul li:hover a {
+    color: #ffb74d;
+    display: initial;
+    overflow: initial;
+    text-overflow: initial;
+    white-space: normal;
+}
+
+@media only screen and (min-width: 1025px) {
+  div.sidebar {    
+    position: fixed;
+  }
+}
+
