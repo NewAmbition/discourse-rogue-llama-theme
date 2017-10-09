@@ -8,12 +8,11 @@ body {
     background-size: 150px 80px;
     height: 90px;
     width: 255px;
-    overflow: hidden;
-    //text-indent: 100%;
+    overflow: hidden; //text-indent: 100%;
     //white-space: nowrap;
 }
 
-.d-header #site-logo{
+.d-header #site-logo {
     width: 120px;
     height: 70px;
     max-height: 90px;
@@ -46,50 +45,68 @@ body {
     color: #8e24aa;
 }
 
-.d-header, #topic-title, .active {
+.d-header,
+#topic-title,
+.active {
     background: rgb(255, 205, 210);
 }
 
-.info > .title {
+.info>.title {
     background: none;
     height: initial;
     text-indent: 0;
     width: initial;
 }
 
-.main-content, .user-main {
+.main-content,
+.user-main {
     background: rgb(178, 235, 242);
 }
 
-.logo-big, .logo-small, .avatar {
-}
+.logo-big,
+.logo-small,
+.avatar {}
 
-.raw-link, .topic-statuses {
+.raw-link,
+.topic-statuses {
     background: none;
 }
 
-.user-title, .timeline-ago {
+.user-title,
+.timeline-ago {
     color: #4db6ac;
 }
 
-.number, th, a {
+.number,
+th,
+a {
     color: #9575cd;
 }
 
-.notification-options > p {
+.notification-options>p {
     color: #9575cd;
 }
 
-h3, .fa, .reply, .label, .instructions {
+h3,
+.fa,
+.reply,
+.label,
+.instructions {
     color: #8e24aa;
 }
 
 .topic-timeline {
     background: #d1c4e9;
-    padding: 10px;
-    right: 280px;
+    position: fixed;
+    right: 0;
+    left: 50%;
     top: 82px;
-    width: auto;
+    padding: 0;
+    width: 88px;
+    padding: 10px;
+    margin-left: 565px;
+    border: 1px white solid;
+    border-radius: 5px 5px;
 }
 
 .main-content.topic.has-sidebars #topic-title .container .title-wrapper .badge-wrapper {
@@ -147,8 +164,7 @@ li b {
 }
 
 @media only screen and (min-width: 1025px) {
-  div.sidebar {    
-    position: fixed;
-  }
+    div.sidebar {
+        position: fixed;
+    }
 }
-

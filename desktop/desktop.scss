@@ -14,6 +14,8 @@ body {
 		height: 90px;
 		width: 255px;
 		overflow: hidden;
+		//text-indent: 100%;
+		//white-space: nowrap;
 	}
 }
 .d-header {
@@ -112,10 +114,16 @@ h3 {
 }
 .topic-timeline {
 	background: #d1c4e9;
-	padding: 10px;
-	right: 280px;
+	position: fixed;
+	right: 0;
+	left: 50%;
 	top: 82px;
-	width: auto;
+	padding: 0;
+	width: 88px;
+	padding: 10px;
+	margin-left: 565px;
+	border: 1px white solid;
+	border-radius: 5px 5px;
 }
 .main-content.topic.has-sidebars {
 	#topic-title {
